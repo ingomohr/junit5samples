@@ -15,7 +15,12 @@ class FirstTest {
 	}
 
 	@Test
-	void add() {
+	void equalsWithMessage() {
+		assertEquals(4, objUT.add(2, 2), "Values equal?");
+	}
+
+	@Test
+	void equalsWithMessagebySupplier() {
 		assertEquals(4, objUT.add(2, 2), () -> "Values equal?");
 	}
 
