@@ -11,9 +11,8 @@ class Repeat {
 
 	@RepeatedTest(5)
 	@Tag(TagConstants.WHACKLE_CANDIDATES)
-	@Tag(TagConstants.BAD_BANK)
 	void test() {
-		assertTrue(Math.random() < 0.8D);
+		assertTrue(Math.random() < 0.85D);
 	}
 
 	@RepeatedTest(value = 5, name = "{displayName} {currentRepetition}/{totalRepetitions}")
