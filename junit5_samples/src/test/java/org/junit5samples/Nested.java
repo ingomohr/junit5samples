@@ -28,6 +28,31 @@ public class Nested {
 		void notNull() {
 			assertNotNull(calc);
 		}
+		
+		@org.junit.jupiter.api.Nested
+		@DisplayName("child2")
+		class Child2 {
+
+			Calculator calc;
+
+			@BeforeEach
+			void prep() {
+				calc = new Calculator();
+			}
+
+			@Test
+			void notNullC21() {
+				assertNotNull(calc);
+			}
+			
+			@Test
+			void notNullC22() {
+				assertNotNull(calc);
+			}
+
+
+		}
+
 
 	}
 
