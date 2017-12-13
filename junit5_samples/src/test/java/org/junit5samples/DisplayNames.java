@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 class DisplayNames {
 
 	@Test
-	@DisplayName("This is a test 😎")
+	@DisplayName("This is a test :)")
 	void test() {
 	}
 
