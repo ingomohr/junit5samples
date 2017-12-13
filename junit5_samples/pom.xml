@@ -42,6 +42,10 @@
 					</properties>
 				</configuration>
 				<dependencies>
+					<!--
+						Provider is currently provided by JUNit5 team and is asked to be contributed to the Maven team
+						See https://issues.apache.org/jira/browse/SUREFIRE-1330
+					 -->
 					<dependency>
 						<groupId>org.junit.platform</groupId>
 						<artifactId>junit-platform-surefire-provider</artifactId>
