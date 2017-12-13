@@ -36,7 +36,7 @@
 					</includes>
 					<properties>
 						<!-- <includeTags>fast</includeTags> -->
-						<excludeTags>slow, whackle-candidates</excludeTags>
+						<excludeTags>slow, whackle_candidates, bad_bank</excludeTags>
 						<!-- <configurationParameters> junit.jupiter.conditions.deactivate 
 							= * </configurationParameters> -->
 					</properties>

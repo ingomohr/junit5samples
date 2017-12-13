@@ -14,8 +14,8 @@ public class AssertAllTest {
 		Assertions.assertAll(
 				// @formatter:off
 				() -> assertEquals(1, calculator.add(1, 0)),
-				() -> assertEquals(1, calculator.add(1, 1)),
-				() -> assertEquals(1, calculator.add(1, 2)),
+				() -> assertEquals(2, calculator.add(1, 1)),
+				() -> assertEquals(3, calculator.add(1, 2)),
 				() -> assertEquals(4, calculator.add(1, 3))
 				// @formatter:on
 		);
