@@ -72,7 +72,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- we need to a testengine for running tests with -->
+		<!-- we need a testengine (at least one) for running tests on -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
